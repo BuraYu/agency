@@ -1,1 +1,15 @@
-@use "../abstracts" as *;
+@import "./abstactcs/colors";
+@import "./abstactcs/mixins";
+@import "./abstactcs/variables";
+
+body {
+  @include body-copy;
+}
+
+.fraunces-700 {
+  @include fraunces-font($font-weight-fraunces-700);
+}
+
+.fraunces-900 {
+  @include fraunces-font($font-weight-fraunces-900);
+}

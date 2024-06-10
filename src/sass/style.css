@@ -1,2 +1,17 @@
-@use "../abstracts" as *;
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+body {
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.fraunces-700 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+.fraunces-900 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
 /*# sourceMappingURL=style.css.map */

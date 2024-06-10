@@ -1,0 +1,10 @@
+@mixin body-copy {
+  font-size: $font-size-body;
+  font-family: $font-family-body;
+  font-weight: $font-weight-body;
+}
+
+@mixin fraunces-font($weight) {
+  font-family: $font-family-fraunces;
+  font-weight: $weight;
+}

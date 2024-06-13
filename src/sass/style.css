@@ -221,4 +221,13 @@ li {
           align-items: center;
   text-align: center;
 }
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
 /*# sourceMappingURL=style.css.map */

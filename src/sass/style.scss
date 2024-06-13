@@ -60,7 +60,8 @@ li {
 
       .logo {
         color: white;
-        font-size: 20px;
+        font-size: 30px;
+        @include fraunces-font(700);
       }
       ul {
         display: flex;
@@ -89,11 +90,30 @@ li {
             justify-content: center;
             align-items: center;
             text-align: center;
+            text-transform: uppercase;
           }
         }
       }
     }
   }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      @include fraunces-font(900);
+      text-align: center;
+      color: $white;
+      font-size: 56px;
+      margin-top: 105px;
+    }
+    img {
+      width: 30px;
+      height: 107.5px;
+      margin-top: 96px;
+    }
+  }
 }
-
-

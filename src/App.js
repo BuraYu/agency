@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         {/* Hero section */}
-        <Header Header />
+        <Header />
       </div>
     </div>
   );

@@ -168,7 +168,9 @@ li {
 
 .container .hero .header-bar .logo {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
 }
 
 .container .hero .header-bar ul {
@@ -220,14 +222,37 @@ li {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  text-transform: uppercase;
 }
 
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
+.container .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .title h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  font-size: 56px;
+  margin-top: 105px;
+}
+
+.container .title img {
+  width: 30px;
+  height: 107.5px;
+  margin-top: 96px;
 }
 /*# sourceMappingURL=style.css.map */

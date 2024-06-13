@@ -1,4 +1,5 @@
 import "../sass/style.css";
+import arrowDown from "../img/icon-arrow-down.svg";
 
 function Header() {
   return (
@@ -23,6 +24,10 @@ function Header() {
             </li>
           </ul>
         </nav>
+      </div>
+      <div className="title">
+        <h1>WE ARE CREATIVES</h1>
+        <img src={arrowDown} alt="an arrow pointing down" />
       </div>
     </section>
   );

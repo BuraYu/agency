@@ -85,8 +85,15 @@ body {
   align-items: center;
 }
 
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 li {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App {
@@ -118,12 +125,10 @@ li {
         color: white;
         font-size: 20px;
       }
-
       ul {
         display: flex;
         justify-content: center;
         align-items: center;
-
         gap: 47px;
 
         li {
@@ -132,6 +137,9 @@ li {
           a {
             color: white;
             text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
           }
 
           .contact {
@@ -140,6 +148,10 @@ li {
             width: 140px;
             height: 56px;
             border-radius: 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
           }
         }
       }
